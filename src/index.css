@@ -1,0 +1,80 @@
+.pokemon-card-container {
+    display: inline-block;
+    width: 25%; /* Set to 25% to have 4 cards in a row */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .pokemongrid {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .pokemongrid img {
+    height: 200px; /* Set the height as per your requirement */
+    object-fit:contain;
+  }
+  
+  .pokemongrid .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pokemongrid .btn {
+    margin-top: 10px;
+  }
+  
+  /* PDP.css */
+
+.pdp-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .pokemon-details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* PLP.css */
+.plp-container {
+    text-align: center;
+    margin: 20px;
+  }
+/* NavBar.css */
+
+.active-link {
+  color: #ffcc00; /* Customize the color for the active link */
+}
+
+.pokemon-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.pokemon-table th, .pokemon-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.pokemon-table th {
+  background-color: #f2f2f2;
+}
